@@ -1,0 +1,19 @@
+{
+	"compilerOptions": {
+		"module": "NodeNext",
+		"moduleResolution": "NodeNext",
+		"target": "ES2020",
+		"sourceMap": true,
+		"outDir": "dist",
+		"baseUrl": "src",
+		"paths": {
+			"@libs/*": ["libs/*"],
+			"@services/*": ["services/*"],
+			"@middlewares/*": ["middlewares/*"],
+			"@routes/*": ["routes/*"],
+			"@interfaces/*": ["interfaces/*"],
+			"@utils/*": ["utils/*"]
+		}
+	},
+	"include": ["src/**/*"],
+}
