@@ -9,3 +9,11 @@ Prueba tecnica everst.
 3. PASSWORD: Contraseña
 4. DATABASE: Nombre de la base de datos
 5. WORD_DICT: URL de diccionario de palabras para consumo de servicio
+
+## Ejecutar el projecto
+
+```
+npm run build
+
+npm run start
+```
